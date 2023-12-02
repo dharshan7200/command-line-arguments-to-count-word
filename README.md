@@ -18,7 +18,18 @@ split the line using .split
 # Step 6:
 split the line using .spli
 ## PROGRAM:
-
+```
+Program for getting the word count from the contents of a file using command line arguments
+Developed by: Dharshan D
+RegisterNumber: 23001663
+import sys
+fp=open(sys.argv[1],'r')
+count=0
+for line in fp:
+    words=line.split()
+    count+=len(words)
+print("Number of words in a file",count)
+```
 ### OUTPUT:
 
 
