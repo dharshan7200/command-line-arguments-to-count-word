@@ -31,7 +31,7 @@ for line in fp:
 print("Number of words in a file",count)
 ```
 ### OUTPUT:
-
+![OUTPUT](/count_word.png)
 
 
 ## RESULT:
